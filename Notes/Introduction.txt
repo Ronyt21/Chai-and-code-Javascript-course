@@ -1,2 +1,29 @@
-Difference between .txt and .js file.
- 
+**Difference between .txt and .js file.
+ .js gives computer a command to do something with the help of some other software on the other hand .txt file doesn't do that 
+
+ **why we should use let instead of var ?
+ because of some issue related to the scope of code 
+
+ **what happens when we write "use strict" in our js code.
+ it treat our code with newer version of js   
+
+ **types of data types
+ -> number 
+ -> bigInt
+ -> string
+ -> boolean
+ -> null  // shows the empty value
+ -> undefined  // something which is not defined yet
+ -> symbol // unique
+----------------------
+ -> object           |
+----------------------
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        chapter - 6 - Conversion
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+* always check for NaN in the case of Conversion.
+* "33" => number
+  "33abc" => NaN
