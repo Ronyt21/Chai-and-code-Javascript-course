@@ -26,4 +26,4 @@
 
 * always check for NaN in the case of Conversion.
 * "33" => number
-  "33abc" => NaN
+  "33abc" => NaN`
