@@ -68,3 +68,39 @@
 //  const fun = ()=>{
 //      console.log('i am a function');};
 //  console.log(typeof(fun)); //function
+
+// *******************************************************************************************************************************
+//                                   Stack and Heap
+// ********************************************************************** ****************************************************************
+
+//stack = primitive data types = create a copy of varible 
+//heaps = Non - primitive types = gives refence of the variable
+
+// Example of Stack memory
+// let userName = 'ronit21';
+// let copiedUserName = userName;
+// console.log(userName);
+// console.log(copiedUserName);
+
+// copiedUserName = 'raj31';
+// console.log(userName);
+// console.log(copiedUserName);
+
+
+//Example of Heap Memory
+let user ={
+    name : 'ronit',
+    email: 'ronit@google.com'
+};
+let copiedUser = user;
+console.log(user);
+console.log(copiedUser);
+
+copiedUser.email = 'raj31@google.com';
+console.log(user);
+console.log(copiedUser);
+
+//summary : 
+// **in stack memory it provides us a copy of that variable and in heap memory it provides a reference of that variable  
+// ** thats why when we changed the value of copiedUser in second example it changed the original value as well.
+
